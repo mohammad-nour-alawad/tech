@@ -1,0 +1,18 @@
+.all-users img{
+    border-radius: 50%; 
+    width: 40px;
+}
+.all-users td a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.all-users .user-id{
+    font-size: larger;
+    color: #ff7373;
+    font-weight: 700;
+}
+
+.all-users .username-container{
+    margin-left: 25%;
+}

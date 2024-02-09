@@ -1,0 +1,87 @@
+
+.nav-username{
+    float: right;
+    height: 100%;
+    padding-top: 27px;
+    margin-right: 30px;
+    margin-left: 10px
+}
+
+.nav-username a{
+    color:black;
+    text-decoration: none;
+}
+
+.nav-username span{
+    font-weight: bolder;
+}
+
+.nav-profile{
+    float: right;
+}
+
+.nav-profile a{
+    text-decoration: none;
+}
+.nav-profile img{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.mid-nav a:hover{
+    background-color: #ff7373;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.nav-items{
+    float: right;
+    list-style: none;
+    margin-top: 20px; 
+} 
+.logo p{
+    position: absolute;
+    left: 20px;
+    width: 150px;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.logo p span{
+    color: red;
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: -1px;
+    height: 75px;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    display: block;
+	box-shadow: 2px 2px 30px rgba(255,0,0,0.08);
+}
+
+.logout{
+    float: right;
+}
+.logout img{
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: auto;
+}
+
+.homepage-logout{
+    float:right;
+    box-sizing: border-box;
+}

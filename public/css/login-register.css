@@ -1,0 +1,64 @@
+
+
+.login-register-container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.login-register-container .content{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px 10px #0000000b;
+    box-sizing: border-box;
+    width: 700px;
+    padding: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.login-register-container h1{
+    font-size: larger;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+
+.login-register-container h4{
+    font-weight: bolder;
+}
+
+.login-register-container a{
+    text-decoration: none;
+    color: gray;
+    color: #000;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.login-register-container a:hover{
+    color: rgb(255, 138, 138);
+}
+
+
+.login-register-container button{
+    box-sizing: border-box;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff7373;
+    width: 100px;
+    height: 40px;
+    box-shadow: 1px 1px 1px 1px #0000000b;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-register-container button:hover{
+    color: black;
+    background-color: #e86b6b;
+    box-shadow: 1px 1px 1px 1px #fff;
+}

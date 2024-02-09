@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.rating-container{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 2000;
+    top: -500px;
+    left: 50%;
+    left: calc(50% - 200px);
+    transition: all 0.5s ease-in-out;
+    place-items: center;
+    text-align: center;
+    border-radius: 10px;
+    cursor:auto;
+    border: none;
+}
+.rating-container .content{
+  border-radius: 10px;
+  position: absolute;
+  width: 400px;
+  background: rgb(196, 196, 196);
+  padding: 20px 30px;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  outline: none;
+  border: none;
+}
+.rating-container .star-widget input[type="radio"]{
+  display: none;
+}
+.rating-container .star-widget label{
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+.star-widget {
+  display: block !important;
+}
+.rating-container input:not(:checked) ~ label:hover,
+.rating-container input:not(:checked) ~ label:hover ~ label{
+  color: #fd4;
+}
+.rating-container input:checked ~ label{
+  color: #fd4;
+}
+.rating-container input.rate-5:checked ~ label{
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+.rating-container .rate-1:checked ~ .form-rating header:before{
+  content: "Please add a comment";
+}
+.rating-container .rate-2:checked ~ .form-rating header:before{
+  content: "Please add a comment";
+}
+
+.rating-container .rate-3:checked ~ .form-rating header:before{
+  content: "Please add a comment";
+}
+
+.rating-container .rate-4:checked ~ .form-rating header:before{
+  content: "Please add a comment";
+}
+
+.rating-container .rate-5:checked ~ .form-rating header:before{
+  content: "Please add a comment";
+}
+
+.rating-container .content .form-rating{
+  display: none;
+}
+
+.rating-container input:checked ~ .form-rating{
+  display: block;
+}
+
+.rating-container .form-rating header{
+  width: 100%;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+.rating-container .form-rating textarea{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+.rating-container .form-rating textarea{
+  height: 90px;
+  width: 100%;
+  outline: none;
+  resize: none;
+  border: none;
+  cursor: auto;
+  background-color: rgb(143, 143, 143);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 17px;
+}
+
+.rating-container .form-rating input{
+  height: 45px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.rating-container .form-rating input{
+  display: block !important;
+  position: relative;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: rgb(80, 80, 80);
+  color: rgb(194, 194, 194);
+  font-size: 17px;
+  font-weight: 600 !important;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border-radius: 10px;
+}
+.rating-container .form-rating input:hover{
+  background: #3f3f3f;
+}
+
+
+.rate-me-up {
+  cursor: pointer;
+  color: #529cd5;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.rate-me-up:focus + .rating-container{
+  top: 250px;
+}
+
+.rating-container:focus-within {
+  top: 250px;
+}

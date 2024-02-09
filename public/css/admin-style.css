@@ -1,0 +1,70 @@
+.admin-tables {
+    padding:0;
+    margin: 0;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 100px;
+}
+.admin-tables a{
+    text-decoration: none;
+}
+.admin-tables div{
+    padding:0;
+    margin-top: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-tables1{
+    background-color: antiquewhite;
+}
+.admin-tables2{
+    background-color: beige;
+}
+
+.admin-tables div:hover{
+    background-color: cornsilk;
+}
+
+.admin-tables h1{
+    padding-top: 100px;
+}
+
+
+
+
+.admin-user-table{
+    overflow-x:scroll !important;
+    padding-bottom: 0;
+}
+
+.admin-user-table input{
+    text-align: center;
+}
+.admin-user-table input[name="first_name"],
+.admin-user-table input[name="last_name"],
+.admin-user-table input[name="password_hash"]{
+    width: 100px;
+}
+
+.admin-user-table input[name="birthday"]{
+    width: 130px;
+}
+
+
+
+.admin-user-table input[name="submit-update-user"]{
+    border: none;
+    outline: none;
+    background-color: #ff7373;
+    font-weight: 500;
+    color: white;
+}
+
+.admin-user-table input[name="submit-update-user"]:hover{
+    background-color: #ff737395;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
